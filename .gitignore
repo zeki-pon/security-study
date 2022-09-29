@@ -1,4 +1,7 @@
 # Compiled class file
+!**/src/main/**/build/
+!**/src/test/**/build/
+build/
 *.class
 
 # Log file
@@ -21,3 +24,15 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# gradle
+.gradle
